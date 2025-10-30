@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration & Sign in form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+QLD:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Sign up form -->
+         <div class="form-box signUp">
+            <form action="#">
+                <h1>Create Account</h1>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Name" required>
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                
+                <button type="submit" class="btn">SIGN UP</button>
+            </form>
+         </div>
+        <!-- End of sign up form -->
+
+        <!-- Sign In form -->
+         <div class="form-box signIn">
+            <form action="#">
+                <h1>Sign In</h1>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="forgot-link">
+                    <a href="#">Forgot Your Password?</a>
+                </div>
+                <button type="submit" class="btn">SIGN IN</button>
+            </form>
+         </div>
+        <!-- END of Sign in form -->
+        
+        <!-- Toggle box -->
+         <div class="toggle-box">
+            <!-- left -->
+            <div class="toggle-panel left">
+                <h1>Welcome, Dear!</h1>
+                <p>Kindly input your personal details to authenticate and gain access to the full range of features and functionalities on the plateform</p>
+                <button class="btn signIn-btn">SIGN IN</button>
+            </div>
+
+            <!-- right -->
+            <div class="toggle-panel right">
+                <h1>Hello, Dear!</h1>
+                <p>Kindly complete your registration with the necessary personal details to go gain access to all site functionalities.</p>
+                <button class="btn signUp-btn">SIGN UP</button>
+            </div>
+
+         </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
